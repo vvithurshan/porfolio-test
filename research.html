@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research & Presentations | Vithurshan Varenthirarajah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+  <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-bold text-slate-900 tracking-tight">VITHURSHAN</a>
+      <div class="flex gap-6 text-sm font-medium text-slate-600">
+        <a href="index.html" class="hover:text-blue-600 transition-colors">Home</a>
+        <a href="projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
+        <a href="research.html" class="text-blue-600">Research &amp; Presentations</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold text-slate-900 mb-10 animate-fade-in">Research &amp; Presentations</h1>
+
+    <!-- RESEARCH -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Research</h2>
+      <div class="space-y-5">
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-emerald-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1 mb-2">
+            <h3 class="font-semibold text-slate-900">Molecular Insights into PHC Phase Separation</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Aug 2024 – May
+              2026</span>
+          </div>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Investigated LLPS and SAM domain dimerization in Polyhomeotic (PRC1) proteins using atomistic and
+              coarse-grained MD simulations.</li>
+            <li>Constructed energy-weighted protein interaction graphs to identify key residues driving dimerization.
+            </li>
+          </ul>
+        </div>
+
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1 mb-2">
+            <h3 class="font-semibold text-slate-900">Evaluation of Effective Dielectric Constants in Protein–DNA LLPS
+            </h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Jan 2024 – Nov
+              2024</span>
+          </div>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Studied electrostatics in coarse-grained, implicit-solvent protein–DNA systems.</li>
+            <li>Implemented distance- and temperature-dependent dielectric models using PyTorch autograd.</li>
+          </ul>
+        </div>
+
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-purple-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1 mb-2">
+            <h3 class="font-semibold text-slate-900">Machine Learning for Antibody–Antigen Binding Affinity</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Sep 2022 – Dec
+              2023</span>
+          </div>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Developed a hybrid GNN + protein language model using structural and evolutionary features.</li>
+            <li>Generated 7,000+ antibody–antigen structures; reduced prediction error by ~10% vs. state-of-the-art
+              methods.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENTATIONS -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Presentations</h2>
+      <div class="space-y-5">
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-emerald-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Evaluation of Effective Dielectric Constants in Protein–DNA LLPS
+            </h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Oct 2024</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-1">AIChE Annual Meeting, San Diego, CA</p>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Molecular Insights into PHC Phase Separation</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Apr 2025</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-1">Wyoming INBRE Spring Research Conference</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATION -->
+    <section class="mb-8 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Publication</h2>
+      <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+        <div class="absolute left-0 top-0 h-full w-1 bg-purple-500 rounded-l-2xl"></div>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Bandara, N., Premathilaka, D., Chandanayake, S., Hettiarachchi, S.,
+          <span class="font-semibold text-slate-900">Varenthirarajah, V.</span>,
+          Munasinghe, A., Madhawa, K., &amp; Charles, S. (2025).
+          <span class="font-medium text-slate-900">Deep Geometric Framework to Predict Antibody–Antigen Binding
+            Affinity.</span>
+          Journal of Structural Biology, 217(4), 108257.
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="text-center text-xs text-slate-400 pb-10">© 2026 Vithurshan Varenthirarajah</footer>
+
+</body>
+
+</html>

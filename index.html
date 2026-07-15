@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vithurshan Varenthirarajah | Computational Scientist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+
+    section {
+      opacity: 0;
+    }
+
+    section:nth-child(1) {
+      animation-delay: .05s
+    }
+
+    section:nth-child(2) {
+      animation-delay: .1s
+    }
+
+    section:nth-child(3) {
+      animation-delay: .15s
+    }
+
+    section:nth-child(4) {
+      animation-delay: .2s
+    }
+
+    section:nth-child(5) {
+      animation-delay: .25s
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+  <!-- NAV -->
+  <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-bold text-slate-900 tracking-tight">VITHURSHAN</a>
+      <div class="flex gap-6 text-sm font-medium text-slate-600">
+        <a href="index.html" class="text-blue-600">Home</a>
+        <a href="projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
+        <a href="research.html" class="hover:text-blue-600 transition-colors">Research &amp; Presentations</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- HEADER -->
+    <header class="mb-16 animate-fade-in">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <div class="w-44 h-44 rounded-full bg-slate-200 flex-shrink-0 overflow-hidden border-4 border-white shadow-xl">
+          <img src="20241027_100805.jpg" alt="Vithurshan Varenthirarajah" class="w-full h-full object-cover">
+        </div>
+        <div class="text-center md:text-left mt-2">
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">Vithurshan Varenthirarajah</h1>
+          <p class="text-lg text-blue-600 font-medium mb-4">Computational Scientist | Molecular Simulation &amp; LLM
+            Engineering</p>
+          <div class="flex flex-wrap justify-center md:justify-start gap-3 text-sm font-medium">
+            <a href="https://github.com/vvithurshan"
+              class="px-4 py-2 bg-slate-100 rounded-full text-slate-600 hover:text-white hover:bg-slate-800 transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/vithurshan-varenthirarajah-521258164/"
+              class="px-4 py-2 bg-slate-100 rounded-full text-slate-600 hover:text-white hover:bg-blue-600 transition-colors">LinkedIn</a>
+            <a href="https://huggingface.co/VITHURSHAN"
+              class="px-4 py-2 bg-slate-100 rounded-full text-slate-600 hover:text-white hover:bg-amber-500 transition-colors">HuggingFace</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">About</h2>
+      <div class="bg-white p-7 rounded-2xl shadow-sm border border-slate-200">
+        <p class="text-slate-600 leading-relaxed text-[15px]">
+          Computational scientist with an M.S. in Chemical Engineering from the University of Wyoming and over
+          5 years of research experience in molecular dynamics simulations, binding free energy calculations,
+          and enhanced sampling methods using high-performance computing environments. Experienced in
+          fine-tuning LLMs and developing Agentic AI and RAG-based applications for scientific workflows.
+          Strong problem-solving abilities, strategic decision-making skills, and resilience developed through
+          research and competitive chess.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Skills</h2>
+      <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Scientific Computing &amp;
+            Mathematics</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm">Linear Algebra</span>
+            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm">Calculus</span>
+            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm">Statistics</span>
+            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm">Data Exploration</span>
+            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm">Data Analysis</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Machine Learning &amp; AI</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Deep Learning</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">PyTorch</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">TensorFlow</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Transformers</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Diffusion Models</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Graph Neural Networks</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">Fine-Tuning</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">LLM Agents</span>
+            <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">RAG</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Computational Chemistry</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Molecular Dynamics
+              Simulations</span>
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Enhanced Sampling Methods</span>
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Free Energy Calculations</span>
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Funnel Metadynamics</span>
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Binding Affinity Prediction</span>
+            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Molecular Docking</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Programming &amp; Software
+            Development</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Bash</span>
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Linux</span>
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HPC</span>
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Software Engineering
+              Principles</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Education</h2>
+      <div class="space-y-5">
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-emerald-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">MS in Chemical Engineering</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">May 2026</span>
+          </div>
+          <p class="text-emerald-600 font-medium text-sm mt-1">University of Wyoming, USA · GPA 3.78</p>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">BS in Computational Chemistry</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">July 2021</span>
+          </div>
+          <p class="text-blue-600 font-medium text-sm mt-1">University of Colombo, Sri Lanka</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="mb-14 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Experience</h2>
+      <div class="space-y-5">
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-purple-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Volunteer Machine Learning Engineer</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Jun 2026 –
+              Present</span>
+          </div>
+          <p class="text-purple-600 font-medium text-sm mt-1 mb-3">Community Dreams Foundation</p>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Designed a multi-agent AI platform integrating mutation design, molecular docking, and MD simulations to
+              accelerate antibody engineering workflows.</li>
+            <li>Increased candidate antibody stability by ~15% using ProteinMPNN-based inverse protein design.</li>
+          </ul>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-emerald-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Graduate Research Assistant</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Jan 2024 – May
+              2026</span>
+          </div>
+          <p class="text-emerald-600 font-medium text-sm mt-1 mb-3">University of Wyoming, USA</p>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Characterized conformational mechanisms underlying LLPS in Polyhomeotic proteins via large-scale
+              enhanced sampling MD simulations on HPC systems.</li>
+            <li>Predicted binding free energies with more than 95% agreement to experimental measurements.</li>
+          </ul>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Thermodynamics Teaching Assistant</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Aug 2025 – May
+              2026</span>
+          </div>
+          <p class="text-blue-600 font-medium text-sm mt-1">University of Wyoming, USA</p>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute left-0 top-0 h-full w-1 bg-amber-500 rounded-l-2xl"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-1">
+            <h3 class="font-semibold text-slate-900">Machine Learning Researcher</h3>
+            <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap">Sep 2022 – Dec
+              2023</span>
+          </div>
+          <p class="text-amber-600 font-medium text-sm mt-1 mb-3">University of Moratuwa, Sri Lanka</p>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Generated structural models for over 50,000 protein sequences via automated pipelines.</li>
+            <li>Achieved ~10% higher antibody-antigen binding affinity prediction accuracy by combining graph neural
+              networks with protein language models.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS (from resume) -->
+    <section class="mb-8 animate-fade-in">
+      <h2 class="text-2xl font-bold text-slate-900 mb-5">Featured Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 to-orange-500 rounded-t-2xl">
+          </div>
+          <h3 class="font-semibold text-slate-900 mb-1">Binding Affinity of Chymotrypsin</h3>
+          <p class="text-xs text-slate-500 mb-3">Sep 2020 – Dec 2022</p>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Applied enhanced sampling MD simulations and free energy calculations to investigate substrate binding.
+            </li>
+            <li>Predicted binding affinities with ~99% agreement with experimental measurements.</li>
+          </ul>
+        </div>
+        <div class="relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-rose-500 rounded-t-2xl"></div>
+          <h3 class="font-semibold text-slate-900 mb-1">Accessible Molecular Visualization</h3>
+          <p class="text-xs text-slate-500 mb-3">Feb 2024 – May 2024</p>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-700 space-y-1.5 leading-relaxed">
+            <li>Built a full-stack, LLM-powered platform translating natural language into visualization commands for
+              visually impaired users.</li>
+            <li>Improved accessibility and hands-free workflows by ~10% via voice-based interfaces.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-sm text-slate-500 mt-6">See more on the <a href="projects.html"
+          class="text-blue-600 font-medium hover:underline">Projects</a> page.</p>
+    </section>
+
+  </div>
+
+  <footer class="text-center text-xs text-slate-400 pb-10">© 2026 Vithurshan Varenthirarajah</footer>
+
+</body>
+
+</html>
